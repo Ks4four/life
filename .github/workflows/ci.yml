@@ -1,0 +1,58 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - main  # 或者 master，取决于你的主分支名称
+  pull_request:
+    branches:
+      - main  # 或者 master
+
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+      with:
+        submodules: true  # 如果你的主题是作为 git submodule 添加的，这一行很重要
+
+    - name: Setup Hugo
+      uses: peaceiris/actions-hugo@v3.0.0
+      with:
+        hugo-version: 'latest'
+        extended: true # 很多主题需要 extended version
+
+    - name: Build Hugo site
+      # 移除了所有不必要的路径和硬编码的 baseURL
+      # Hugo 会自动从你的 hugo.toml 文件读取配置
+      run: hugo --minify --gc
+
+    - name: Upload Artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: build
+        # Hugo 默认会把网站构建到 "public" 文件夹
+        path: ./public
+
+  deploy:
+    needs: build
+    name: Deploy to GitHub Pages
+    runs-on: ubuntu-latest
+    # 只有当代码被 push 到主分支时才部署
+    if: github.ref == 'refs/heads/main' && github.event_name == 'push' # 同样，这里可能是 'master'
+
+    steps:
+      - name: Download artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: build
+          path: ./public
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4.0.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
