@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Computer on Ksfour's Life</title><link>https://Ks4four.github.io/life/blog/computer/</link><description>Recent content in Computer on Ksfour's Life</description><generator>Hugo</generator><language>en-US</language><copyright>Copyright © 2025, Ksfour.</copyright><lastBuildDate>Sat, 26 Apr 2025 04:15:51 +0800</lastBuildDate><atom:link href="https://Ks4four.github.io/life/blog/computer/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://Ks4four.github.io/life/</link><pubDate>Sat, 26 Apr 2025 04:15:51 +0800</pubDate><guid>https://Ks4four.github.io/life/</guid><description>&lt;p&gt;我不是任何操作系统的粉丝，也不想与编程语言产生什么羁绊。&lt;/p&gt;
+&lt;p&gt;现在，每当我要开始电脑时，我总是会感到厌恶和痛苦。这台不到 0.05 立方米的机器占用了我太多时间。我当然明白电脑是人类智慧的结晶，但电脑需要人来操控；换句话说，是电脑把人拉到了屏幕前。无人值守也不过是几个 if-else 的组合，只要人不满足那个 if 条件，电脑自己除了发呆以外，什么也不会干。&lt;/p&gt;
+&lt;p&gt;我曾使用过一段时间 Linux，而我现在非常感谢它：在无数次擦写硬盘、换发行版、自己尝试修复那些无名、无人维护且无文档的软件 bug，以及经历 DE 莫名其妙的故障之后，我才发现，我一点也不喜欢这个号称『自由』的系统。每一个发行版都不完美，而我又太懒；这种懒惰恰好是社区所要批评的，因为这是消费者心态，这种懒惰是 entitled，而这种 entitled 是不正常的。于是，我在为自己的懒惰感到愧疚时，又不断去学习“常识”。说真的，对我来说，这些“常识”并不简单，我还为此写了几篇 Linux 笔记。我在这份『自由』上真的花费了太多时间。到头来，每次运行某个应用、某个二进制，甚至只是打开 tty，我都感觉自己的生命在一点点流失。&lt;/p&gt;
+&lt;p&gt;Windows 没差到哪里去。虽然大家都说 Windows 很易用，事实上确实如此，但大家又不得不忍受它本身的各种神秘微软小礼物：莫名其妙的卡顿、&lt;code&gt;env&lt;/code&gt; 和 &lt;code&gt;$PATH&lt;/code&gt; 的凭空消失、&lt;code&gt;explorer.exe&lt;/code&gt; 的突然暴毙。比 Linux 更糟的是，Windows 的故障常常找不到原因。虽然 &lt;code&gt;env&lt;/code&gt; 和 &lt;code&gt;$PATH&lt;/code&gt; 的丢失这种事情，对普通人来说无所谓，毕竟普通人不怎么使用 CLI，但对我这种半吊子技术爱好者 &lt;sup id="fnref:1"&gt;&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref"&gt;1&lt;/a&gt;&lt;/sup&gt; 来说，我的自大和虚荣心驱使我非要追根究底。最后，这也耗费了大量时间。我佩服我自己的毅力，能让我在浪费生命这件事上变得如此专注。&lt;/p&gt;
+&lt;p&gt;更别提 macOS 了，我没钱。&lt;/p&gt;
+&lt;p&gt;我虽然比普通人强一点，也能在外面被称作“电脑高手”——无非就是会看英文 README，会 RTFM，会自己尝试修复问题——但接触这些新事物并不能让我感到快乐。每当大家谈论 Vim/Neovim、Emacs 有多么强大，我也跟风下载来用，但我真的体会不到它们的好。软件里我只看到难以理解的快捷键；虽然尝试过理解，但理解了又有什么用呢？那不就是几个软件的操作指令罢了，离我要做的『生产』十万八千里。&lt;/p&gt;
+&lt;p&gt;我发现（并且羞于承认）我其实根本不是一个乐于接受新事物的人。对我而言，电脑这个东西，是没得选的时候才会去碰的东西。有几个月，我没带电脑，只带了部手机回家，结果惊讶地发现，家里人衰老的速度，比几个小软件的编译快很多。之后，我又和几个挚友去旅行，发现这些快乐是电脑给不了的。或者说，我甚至是想不通，操控电脑的意义在哪。对许多人（尤其是能做出厉害软件的大神）来说，生活和摆弄电脑并不冲突；但对我这个普通人来说，连正经编程语言都不懂（我唯一懂的也就是 Markdown，甚至不能算正经编程语言），根本感受不到哪里好玩。如果有得选，我一定会去社交、结交新朋友，而不是坐在这里等一个编译结果，要么成功，要么失败。&lt;/p&gt;
+&lt;p&gt;请原谅我的偏激，电脑本身并无意对人分类。只是说，当人没有经济压力时，使用电脑可以产出奇思妙想的软件；当人要为生存付出必要的精力时，电脑就只能纯粹变成放松娱乐的工具。这种电脑其实还挺可怜的，但是你不能说这是人的错，毕竟生存才是第一位的。这或许就是所谓的“富者恒富”&lt;sup id="fnref:2"&gt;&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref"&gt;2&lt;/a&gt;&lt;/sup&gt;。&lt;/p&gt;
+&lt;p&gt;现在，我在用最新的 Windows 系统。打开&lt;strong&gt;设置&lt;/strong&gt;&lt;sup id="fnref:3"&gt;&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref"&gt;3&lt;/a&gt;&lt;/sup&gt;，换上一张动漫女孩壁纸，对我而言已经是最大的止损。我还记得之前生产力壁纸很火，就是纯色或者 focused-theme 背景加上几个字的那种；但我发现，把电脑桌面换成动漫女孩才是电脑最『无害』的时候。&lt;/p&gt;
+&lt;p&gt;看到这里，肯定有很多人会说我是 PEBKAC。是的，我承认我『菜』，但我宁愿从椅子上站起来，而不是为了一个无法带来阶级跃升的东西去提升所谓的能力。有时候我会提醒自己，久坐对身体是不好的。小的时候，我还想学所谓的『编程』，做一个跳舞机游戏的实现，仅仅是因为当前没有钱买游戏币。然而现在，我还坐在电脑前面用 Neovim 在写这个破玩意。&lt;/p&gt;
+&lt;div class="footnotes" role="doc-endnotes"&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id="fn:1"&gt;
+&lt;p&gt;当然，现在肯定不算是了。&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:2"&gt;
+&lt;p&gt;哦，对了，&lt;a href="https://en.wikipedia.org/wiki/Matthew_effect"&gt;马太效应&lt;/a&gt;。&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:3"&gt;
+&lt;p&gt;使用&lt;strong&gt;粗体&lt;/strong&gt;来标注 UI 中的元素。参考：&lt;a href="https://developers.google.com/style/text-formatting"&gt;Google developer documentation style guide&lt;/a&gt;.&amp;#160;&lt;a href="#fnref:3" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</description></item></channel></rss>
