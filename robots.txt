@@ -1,2 +1,2 @@
 User-Agent: *
-Sitemap: https://Ks4four.github.io/life/sitemap.xml
+Sitemap: https://ks4four.github.io/life/sitemap.xml
