@@ -1,5 +1,5 @@
 +++
-title = "opinion"
+title = "Opinion"
 menu = "main"
 weight = 101
 +++
