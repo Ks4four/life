@@ -66,10 +66,13 @@ ignoreErrors = ["error-disable-taxonomy"]
     lineNumbersInTable = false
     codeFences = true
   [markup.goldmark]
-    [markup.goldmark.extensions]
-      footnote = true
     [markup.goldmark.renderer]
+      # This is required to render the HTML in our mathimg shortcode and image gallery
       unsafe = true
+    [markup.goldmark.extensions]
+      # Enable Markdown footnotes
+      footnote = true
+      # This is the corrected passthrough configuration
       [markup.goldmark.extensions.passthrough]
         enable = true
         [markup.goldmark.extensions.passthrough.delimiters]
