@@ -47,22 +47,16 @@ $\text{Amiya, Solo Around The World}$ [^amiyasatw]
 
 [^amiyasatw]: ![amiyasatw.svg](../../images/moe/arknights/amiyasatw.svg)
 
-以下角色未匹配到画师。
+以下角色未匹配到画师[^arknights-non]。
 
-$\text{Shamare}$ [^shamare]
-$\text{Asbestos}$ [^asbestos]
-$\text{Ceobe (Unfettered)}$ [^ceobe2]
-$\text{Sora}$ [^sora]
-$\text{Sussurro}$ [^sussurro]
-$\text{Suzuran}$ [^suzuran]
-$\text{Suzuran (Yukibare)}$ [^suzuran3]
+$\text{Shamare}$
+$\text{Asbestos}$
+$\text{Ceobe (Unfettered)}$
+$\text{Sora}$
+$\text{Sussurro}$
+$\text{Suzuran}$
+$\text{Suzuran (Yukibare)}$
 
-[^asbestos]: ![asbestos.svg](../../images/moe/arknights/asbestos.svg)
-[^ceobe2]: ![ceobe2.svg](../../images/moe/arknights/ceobe2.svg)
-[^shamare]: ![shamare.svg](../../images/moe/arknights/shamare.svg)
-[^sora]: ![sora.svg](../../images/moe/arknights/sora.svg)
-[^sussurro]: ![sussurro.svg](../../images/moe/arknights/sussurro.svg)
-[^suzuran]: ![suzuran.svg](../../images/moe/arknights/suzuran.svg)
-[^suzuran3]: ![suzuran3.svg](../../images/moe/arknights/suzuran3.svg)
+[^arknights-non]: ![shamare.svg](../../images/moe/arknights/shamare.svg) ![asbestos.svg](../../images/moe/arknights/asbestos.svg) ![ceobe2.svg](../../images/moe/arknights/ceobe2.svg) ![sora.svg](../../images/moe/arknights/sora.svg) ![sussurro.svg](../../images/moe/arknights/sussurro.svg) ![suzuran.svg](../../images/moe/arknights/suzuran.svg) ![suzuran3.svg](../../images/moe/arknights/suzuran3.svg)
 
 ## Blue Archive
