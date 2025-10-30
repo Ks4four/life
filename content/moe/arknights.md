@@ -6,7 +6,7 @@ math: true
 
 # Moe
 
-我并不具备 Hetero 特性。
+我并不关注游戏内的 hetero 特性。
 
 ## Arknights
 
