@@ -4,4 +4,4 @@
 {{- $width := .Get 2 | default "1.5em" -}}
 {{- $baseURL := .Site.BaseURL -}}
 
-{{- printf `\htmlClass{math-img}{\text{<img src="%s%s" alt="%s" style="width:%s; height:auto; vertical-align:middle;">}}` $baseURL (strings.TrimPrefix "/" $src) $alt $width | safeHTML -}}
+\text{\html{<img src="{{- $baseURL -}}{{- strings.TrimPrefix "/" $src -}}" alt="{{- $alt -}}" style="width:{{- $width -}}; height:auto; vertical-align:middle;">}}
