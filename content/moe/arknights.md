@@ -6,7 +6,8 @@ math: true
 
 # Moe
 
-我并不关注游戏内的 hetero 特性。
+1. 我并不关注游戏内的 hetero 特性。
+2. 排序为偏爱程度。
 
 ## Arknights
 
