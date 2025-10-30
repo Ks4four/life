@@ -2,9 +2,9 @@
 &lt;h2 id="arknights"&gt;Arknights&lt;/h2&gt;
 &lt;p&gt;此游戏下，所有角色的 icon 严格指定皮肤和版本，故脚注其实更精确。&lt;/p&gt;
 &lt;h3 id="multi"&gt;Multi&lt;/h3&gt;
-$$ \text{W} \xrightarrow{\text{Rosmontis} + \text{Blaze}} \text{Amiya} $$&lt;p&gt;此角色组&lt;sup id="fnref:1"&gt;&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref"&gt;1&lt;/a&gt;&lt;/sup&gt;已匹配候选画师。&lt;/p&gt;
-$$ \text{Lappland}* \leftrightarrows \text{Suzuran} $$&lt;p&gt;此角色组&lt;sup id="fnref:2"&gt;&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref"&gt;2&lt;/a&gt;&lt;/sup&gt;已匹配候选画师。&lt;/p&gt;
-$$ \text{Blaze} \ast \xrightarrow \text{Amiya} $$&lt;p&gt; &lt;sup id="fnref:3"&gt;&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref"&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+$$ \text{W}^* \xrightarrow{\text{Rosmontis} + \text{Blaze}} \text{Amiya} $$&lt;p&gt;此角色组&lt;sup id="fnref:1"&gt;&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref"&gt;1&lt;/a&gt;&lt;/sup&gt;已匹配候选画师。&lt;/p&gt;
+$$ \text{Lappland}^* \leftrightarrows \text{Suzuran} $$&lt;p&gt;此角色组&lt;sup id="fnref:2"&gt;&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref"&gt;2&lt;/a&gt;&lt;/sup&gt;已匹配候选画师。&lt;/p&gt;
+$$ \text{Blaze}^* \xrightarrow \text{Amiya} $$&lt;p&gt; &lt;sup id="fnref:3"&gt;&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref"&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;p&gt;此角色组&lt;sup id="fnref1:3"&gt;&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref"&gt;3&lt;/a&gt;&lt;/sup&gt;未匹配到画师。&lt;/p&gt;
 &lt;h3 id="single"&gt;Single&lt;/h3&gt;
 &lt;p&gt;以下角色已匹配最佳画师。&lt;/p&gt;
