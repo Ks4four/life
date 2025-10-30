@@ -1,0 +1,155 @@
+/* Sidenotes for Hugo Bear Blog */
+
+/* 侧注容器 */
+.sidenote-column {
+    position: absolute;
+    width: 240px;
+    top: 0;
+    font-family: var(--font-secondary);
+    font-size: 0.85em;
+    line-height: 1.5;
+}
+
+/* 左右栏位置 - 基于 Bear Blog 的 720px 宽度 */
+.sidenote-column-left {
+    right: calc(50% + 380px);
+}
+
+.sidenote-column-right {
+    left: calc(50% + 380px);
+}
+
+/* 单个侧注样式 */
+.sidenote {
+    position: absolute;
+    width: 220px;
+    padding: 8px 10px;
+    margin: 10px 0;
+    background-color: var(--background-color);
+    border-left: 2px solid var(--link-color);
+    opacity: 0.9;
+    transition: all 0.3s ease;
+}
+
+/* 左栏侧注右对齐 */
+.sidenote-column-left .sidenote {
+    text-align: right;
+    border-left: none;
+    border-right: 2px solid var(--link-color);
+}
+
+/* 侧注编号 */
+.sidenote-number {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    line-height: 18px;
+    text-align: center;
+    background-color: var(--link-color);
+    color: var(--background-color);
+    border-radius: 50%;
+    font-size: 0.75em;
+    font-weight: bold;
+    margin: 0 5px;
+    font-family: "Geist Mono", monospace;
+}
+
+/* 侧注内容 */
+.sidenote-content {
+    display: inline;
+    color: var(--text-color);
+    opacity: 0.9;
+}
+
+/* 侧注内的链接 */
+.sidenote a {
+    color: var(--link-color);
+    text-decoration: underline;
+}
+
+/* 高亮效果 */
+.sidenote.highlighted {
+    opacity: 1;
+    background-color: var(--background-color);
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+/* 脚注引用样式 */
+.sidenote-ref {
+    background-color: var(--background-color);
+    padding: 1px 4px;
+    border-radius: 3px;
+    text-decoration: none;
+    border: 1px solid var(--link-color);
+    transition: all 0.3s ease;
+}
+
+.sidenote-ref:hover {
+    text-decoration: none;
+    background-color: var(--link-color);
+    color: var(--background-color);
+}
+
+.sidenote-ref.highlighted {
+    background-color: var(--link-color);
+    color: var(--background-color);
+}
+
+/* 深色模式适配 */
+@media (prefers-color-scheme: dark) {
+    .sidenote {
+        opacity: 0.8;
+    }
+    
+    .sidenote.highlighted {
+        box-shadow: 0 2px 10px rgba(255,255,255,0.1);
+    }
+}
+
+/* 响应式设计 */
+@media (max-width: 1400px) {
+    /* 隐藏侧注栏 */
+    .sidenote-column {
+        display: none;
+    }
+    
+    /* 恢复脚注引用的默认样式 */
+    .sidenote-ref {
+        background-color: transparent;
+        padding: 0;
+        border: none;
+    }
+    
+    .sidenote-ref:hover {
+        background-color: transparent;
+        color: var(--link-color);
+        text-decoration: underline;
+    }
+}
+
+/* 确保打印时不显示侧注 */
+@media print {
+    .sidenote-column {
+        display: none;
+    }
+}
+
+/* 滚动条样式（如果侧注内容过长） */
+.sidenote-content {
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.sidenote-content::-webkit-scrollbar {
+    width: 4px;
+}
+
+.sidenote-content::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.sidenote-content::-webkit-scrollbar-thumb {
+    background: var(--text-color);
+    opacity: 0.3;
+    border-radius: 2px;
+}
