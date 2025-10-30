@@ -1,0 +1,6 @@
+{{/* layouts/shortcodes/mimg.html */}}
+{{- $src := .Get 0 -}}
+{{- $width := .Get 1 | default "1.5em" -}}
+{{- $baseURL := .Site.BaseURL -}}
+{{- $fullPath := printf "%s%s" $baseURL (strings.TrimPrefix "/" $src) -}}
+\htmlClass{math-img}{\includegraphics[height={{- $width -}}]{{{- $fullPath -}}}}

@@ -1,11 +1,23 @@
-<!-- 保留原有的字体引入 -->
+<!-- 保留原有内容 -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&family=Geist:wght@100..900&family=Noto+Sans+SC:wght@100..900&display=swap" rel="stylesheet">
-
-<!-- 添加 sidenotes 样式 -->
 <link rel="stylesheet" href="{{ "css/sidenotes.css" | relURL }}">
 
 {{ if .Param "math" }}
     {{ partial "math.html" . }}
 {{ end }}
+
+<style>
+  /* 让 MathJax 正确显示图片 */
+  .math-img img {
+    vertical-align: middle;
+    display: inline-block;
+  }
+  
+  /* 修复 includegraphics 显示 */
+  mjx-container img {
+    display: inline-block;
+    vertical-align: middle;
+  }
+</style>
