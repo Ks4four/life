@@ -14,4 +14,4 @@ weight = 1
 
 ## Moe
 
-Digimon, [Arknights]({{< ref "arknights/index.md" >}})
+Digimon, [Arknights]({{< ref "moe/arknights.md" >}})
