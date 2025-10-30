@@ -1,6 +1,0 @@
-{{/* layouts/shortcodes/mimg.html */}}
-{{- $src := .Get 0 -}}
-{{- $height := .Get 1 | default "1.5em" -}}
-{{- $baseURL := .Site.BaseURL -}}
-{{- $fullPath := printf "%s%s" $baseURL (strings.TrimPrefix "/" $src) -}}
-\text{\html{<img src="{{- $fullPath -}}" style="height:{{- $height -}};vertical-align:middle;">}}

@@ -1,7 +1,0 @@
-{{/* layouts/shortcodes/mathimg.html */}}
-{{- $src := .Get 0 -}}
-{{- $alt := .Get 1 -}}
-{{- $width := .Get 2 | default "1.5em" -}}
-{{- $baseURL := .Site.BaseURL -}}
-
-\htmlId{img-{{- $alt -}}}{\text{<img src="{{- $baseURL -}}{{- strings.TrimPrefix "/" $src -}}" alt="{{- $alt -}}" style="width:{{- $width -}}; vertical-align:middle;">}}
