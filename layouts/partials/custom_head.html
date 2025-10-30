@@ -5,3 +5,7 @@
 
 <!-- 添加 sidenotes 样式 -->
 <link rel="stylesheet" href="{{ "css/sidenotes.css" | relURL }}">
+
+{{ if .Param "math" }}
+    {{ partial "math.html" . }}
+{{ end }}
