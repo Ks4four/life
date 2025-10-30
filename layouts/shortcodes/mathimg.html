@@ -3,4 +3,4 @@
 {{- $alt := .Get 1 -}}
 {{- $width := .Get 2 | default "50pt" -}}
 
-{{- printf `\text{<img src="%s" alt="%s" style="width:%s; vertical-align: middle;">}` ($src | relURL) $alt $width | safeHTML -}}
+{{- printf `\text{<img src="%s" alt="%s" style="width:%s; vertical-align: middle;">}` ($src | absURL) $alt $width | safeHTML -}}
