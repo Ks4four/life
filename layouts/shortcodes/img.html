@@ -1,0 +1,6 @@
+{{/* layouts/shortcodes/img.html */}}
+{{- $src := .Get 0 -}}
+{{- $alt := .Get 1 | default "" -}}
+{{- $size := .Get 2 | default "1.5em" -}}
+{{- $baseURL := .Site.BaseURL -}}
+<img src="{{ $baseURL }}{{ strings.TrimPrefix "/" $src }}" alt="{{ $alt }}" style="height: {{ $size }}; vertical-align: middle; display: inline-block;">

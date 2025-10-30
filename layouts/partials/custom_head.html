@@ -9,19 +9,3 @@
 {{ if .Param "math" }}
     {{ partial "math.html" . }}
 {{ end }}
-
-<script>
-document.addEventListener("DOMContentLoaded", function() {
-    renderMathInElement(document.body, {
-        delimiters: [
-            {left: "\\[", right: "\\]", display: true},
-            {left: "$$", right: "$$", display: true},
-            {left: "\\(", right: "\\)", display: false},
-            {left: "$", right: "$", display: false}
-        ],
-        throwOnError: false,
-        trust: true,  // 允许 HTML
-        strict: false
-    });
-});
-</script>
