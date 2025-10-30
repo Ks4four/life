@@ -192,12 +192,16 @@
 
 /* === 手机端内联展开样式 === */
 .footnote-inline {
-    display: none;
+    display: none; /* 默认隐藏 */
     margin: 10px 0;
     padding: 12px;
     background-color: rgba(128, 128, 128, 0.1);
     border-left: 3px solid var(--link-color);
     border-radius: 4px;
+}
+
+/* 当显示时添加动画 */
+.footnote-inline[style*="display: block"] {
     animation: slideDown 0.3s ease;
 }
 
