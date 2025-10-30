@@ -7,7 +7,7 @@ math: true
 # Moe
 
 1. 我并不关注游戏内的 hetero 特性。
-2. 排序为偏爱程度。
+2. 在同一 heading 下面的角色及角色组存在排序，依据为偏爱程度。不同 heading 之间的偏爱程度无法比较。
 
 ## Arknights
 
