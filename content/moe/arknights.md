@@ -26,7 +26,7 @@ $$ \text{Lappland}* \leftrightarrows \text{Suzuran} $$
 
 [^lapp-szrn]: ![lapp---szrn.svg](../../images/moe/arknights/lapp-szrn.svg)
 
-$$ \text{Blaze}* \xrightarrow \text{Amiya} $$ [^blaze-amiya]
+$$ \text{Blaze} \star \xrightarrow \text{Amiya} $$ [^blaze-amiya]
 
 此角色组[^blaze-amiya]未匹配到画师。
 
