@@ -9,15 +9,39 @@
 {{ end }}
 
 <style>
-  /* 让 MathJax 正确显示图片 */
-  .math-img img {
-    vertical-align: middle;
-    display: inline-block;
+  .math-reaction {
+    display: inline-flex;
+    align-items: center;
+    font-family: 'KaTeX_Main', 'Times New Roman', serif;
   }
   
-  /* 修复 includegraphics 显示 */
-  mjx-container img {
-    display: inline-block;
+  .math-reaction img {
+    height: 1.5em;
     vertical-align: middle;
+  }
+  
+  .reaction-arrow {
+    display: inline-block;
+    position: relative;
+    margin: 0 0.5em;
+    padding-top: 1em;
+  }
+  
+  .reaction-arrow::after {
+    content: '⟶';
+    font-size: 1.2em;
+  }
+  
+  .reaction-conditions {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    font-size: 0.8em;
+  }
+  
+  .reaction-conditions img {
+    height: 1em !important;
   }
 </style>
