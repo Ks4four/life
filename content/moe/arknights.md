@@ -51,11 +51,11 @@ $\text{Amiya, Solo Around The World}$ [^amiyasatw]
 
 $\text{Shamare}$ [^shamare]
 $\text{Asbestos}$ [^asbestos]
-$\text{Ceobe, Unfettered}$ [^ceobe2]
+$\text{Ceobe (Unfettered)}$ [^ceobe2]
 $\text{Sora}$ [^sora]
 $\text{Sussurro}$ [^sussurro]
 $\text{Suzuran}$ [^suzuran]
-$\text{Suzuran, Yukibare}$ [^suzuran3]
+$\text{Suzuran (Yukibare)}$ [^suzuran3]
 
 [^asbestos]: ![asbestos.svg](../../images/moe/arknights/asbestos.svg)
 [^ceobe2]: ![ceobe2.svg](../../images/moe/arknights/ceobe2.svg)
