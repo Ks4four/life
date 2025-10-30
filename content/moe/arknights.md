@@ -14,19 +14,19 @@ math: true
 
 ### Multi
 
-$$ \text{W} \xrightarrow{\text{Rosmontis} + \text{Blaze}} \text{Amiya} $$ 
+$$ \text{W}^* \xrightarrow{\text{Rosmontis} + \text{Blaze}} \text{Amiya} $$ 
 
 此角色组[^w-amiya]已匹配候选画师。
 
 [^w-amiya]: ![w---amiya.svg](../../images/moe/arknights/w-amiya.svg)
 
-$$ \text{Lappland}* \leftrightarrows \text{Suzuran} $$
+$$ \text{Lappland}^* \leftrightarrows \text{Suzuran} $$
 
 此角色组[^lapp-szrn]已匹配候选画师。
 
 [^lapp-szrn]: ![lapp---szrn.svg](../../images/moe/arknights/lapp-szrn.svg)
 
-$$ \text{Blaze} \ast \xrightarrow \text{Amiya} $$ [^blaze-amiya]
+$$ \text{Blaze}^* \xrightarrow \text{Amiya} $$ [^blaze-amiya]
 
 此角色组[^blaze-amiya]未匹配到画师。
 
