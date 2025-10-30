@@ -1,17 +1,7 @@
-<script>
-  window.MathJax = {
-    loader: {
-      load: ['[img]/img.min.js'],
-      paths: {img: 'https://cdn.jsdelivr.net/npm/mathjax-img@4'}
-    },
-    tex: {
-      packages: {'[+]': ['img']},
-      inlineMath: [['$', '$'], ['\\(', '\\)']],
-      displayMath: [['$$', '$$'], ['\\[', '\\]']]
-    },
-    options: {
-      skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
-    }
-  };
-</script>
-<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+{{/* layouts/shortcodes/mathimg.html */}}
+{{- $src := .Get 0 -}}
+{{- $alt := .Get 1 -}}
+{{- $width := .Get 2 | default "50pt" -}}
+{{- $baseURL := .Site.BaseURL -}}
+
+{{- printf `\text{<img src="%s%s" alt="%s" style="width:%s; vertical-align: middle;">}` $baseURL (strings.TrimPrefix "/" $src) $alt $width | safeHTML -}}
