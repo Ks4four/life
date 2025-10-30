@@ -2,5 +2,6 @@
 {{- $src := .Get 0 -}}
 {{- $alt := .Get 1 -}}
 {{- $width := .Get 2 | default "50pt" -}}
+{{- $baseURL := .Site.BaseURL -}}
 
-{{- printf `\text{<img src="%s" alt="%s" style="width:%s; vertical-align: middle;">}` ($src | absURL) $alt $width | safeHTML -}}
+{{- printf `\text{<img src="%s%s" alt="%s" style="width:%s; vertical-align: middle;">}` $baseURL (strings.TrimPrefix "/" $src) $alt $width | safeHTML -}}
