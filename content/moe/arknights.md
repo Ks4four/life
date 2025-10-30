@@ -49,12 +49,12 @@ $\text{Amiya, Solo Around The World}$ [^amiyasatw]
 
 以下角色未匹配到画师[^arknights-non]。
 
-$\text{Shamare}$
-$\text{Asbestos}$
-$\text{Ceobe (Unfettered)}$
-$\text{Sora}$
-$\text{Sussurro}$
-$\text{Suzuran}$
+$\text{Shamare}$,
+$\text{Asbestos}$,
+$\text{Ceobe (Unfettered)}$,
+$\text{Sora}$,
+$\text{Sussurro}$,
+$\text{Suzuran}$,
 $\text{Suzuran (Yukibare)}$
 
 [^arknights-non]: ![shamare.svg](../../images/moe/arknights/shamare.svg) ![asbestos.svg](../../images/moe/arknights/asbestos.svg) ![ceobe2.svg](../../images/moe/arknights/ceobe2.svg) ![sora.svg](../../images/moe/arknights/sora.svg) ![sussurro.svg](../../images/moe/arknights/sussurro.svg) ![suzuran.svg](../../images/moe/arknights/suzuran.svg) ![suzuran3.svg](../../images/moe/arknights/suzuran3.svg)
