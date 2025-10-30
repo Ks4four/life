@@ -1,25 +1,32 @@
 <!-- layouts/partials/math.html -->
-<script>
-  window.MathJax = {
-    tex: {
-      inlineMath: [['$', '$'], ['\\(', '\\)']],
-      displayMath: [['$$', '$$'], ['\\[', '\\]']],
-      processEscapes: true,
-      processEnvironments: true
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [['$','$'], ['\\(','\\)']],
+      displayMath: [['$$','$$'], ['\\[','\\]']],
+      processEscapes: true
     },
-    options: {
-      skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
-    },
-    startup: {
-      pageReady() {
-        return MathJax.startup.defaultPageReady().then(() => {
-          // 处理脚注中的数学公式
-          document.querySelectorAll('.footnotes').forEach((el) => {
-            MathJax.typesetPromise([el]);
-          });
-        });
-      }
+    "HTML-CSS": {
+      scale: 100,
+      availableFonts: ["TeX"],
+      preferredFont: "TeX"
     }
-  };
+  });
+  MathJax.Hub.Register.StartupHook("TeX Jax Ready",function () {
+    var TEX = MathJax.InputJax.TeX;
+    TEX.Definitions.macros.img = "myImg";
+    TEX.Parse.Augment({
+      myImg: function (name) {
+        var src = this.GetArgument(name);
+        var height = this.GetBrackets(name, "1.5em");
+        var img = '<img src="' + src + '" style="height:' + height + ';vertical-align:middle;">';
+        this.Push(MathJax.ElementJax.mml.semantics(
+          MathJax.ElementJax.mml.mtext(img).With({mathvariant: MathJax.ElementJax.mml.VARIANT.NORMAL})
+        ));
+      }
+    });
+  });
 </script>
-<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>

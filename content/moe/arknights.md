@@ -6,4 +6,4 @@ math: true
 
 $ W \xrightarrow{\text{Rosmontis} + \text{Blaze}} \text{Amiya} $ [^w-amiya]
 
-[^w-amiya]: $${{< mimg "/images/moe/arknights/W_icon.png" >}} \xrightarrow{{{< mimg "/images/moe/arknights/Rosmontis_icon.png" "1em" >}} + {{< mimg "/images/moe/arknights/Blaze_icon.png" "1em" >}}} {{< mimg "/images/moe/arknights/Amiya_icon.png" >}}$$
+[^w-amiya]: $$\img{https://Ks4four.github.io/life/images/moe/arknights/W_icon.png}[1.5em] \xrightarrow{\img{https://Ks4four.github.io/life/images/moe/arknights/W_icon.png}[1em] + \img{https://Ks4four.github.io/life/images/moe/arknights/W_icon.png}[1em]} \img{https://Ks4four.github.io/life/images/moe/arknights/W_icon.png}[1.5em]$$
