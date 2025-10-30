@@ -3,4 +3,4 @@
 {{- $height := .Get 1 | default "1.5em" -}}
 {{- $baseURL := .Site.BaseURL -}}
 {{- $fullPath := printf "%s%s" $baseURL (strings.TrimPrefix "/" $src) -}}
-{{- printf `\text{\html{<img src="%s" style="height:%s;vertical-align:middle;">}}` $fullPath $height -}}
+\text{\html{<img src="{{- $fullPath -}}" style="height:{{- $height -}};vertical-align:middle;">}}
