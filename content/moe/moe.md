@@ -12,7 +12,7 @@ math: true
 
 ## Arknights
 
-此游戏下，所有角色的 icon 严格指定皮肤和版本，故脚注其实更精确。
+此 Copyright 下，所有角色的版本均由 svg 精确指定。
 
 ### Multi
 
@@ -38,13 +38,14 @@ $$ \text{Blaze}^* \rightarrow \text{Amiya} $$
 
 以下角色已匹配到最佳画师。
 
-$\text{Mizuki}$ [^mizuki]
+- $\text{Mizuki}$ [^mizuki]
 
 [^mizuki]: ![mizuki.svg](../../images/moe/arknights/single/mizuki.svg)
 
 以下角色已匹配到候选画师。
 
-$\text{Amiya (Solo Around The World)}$ [^amiyasatw], $\text{Kal'tsit (2024 Ambience Synesthesia)}$ [^kaltsitas]
+- $\text{Amiya (Solo Around The World)}$ [^amiyasatw]
+- $\text{Kal'tsit (2024 Ambience Synesthesia)}$ [^kaltsitas]
 
 [^amiyasatw]: ![amiyasatw.svg](../../images/moe/arknights/single/amiyasatw.svg)
 [^kaltsitas]: ![kaltsitas.svg](../../images/moe/arknights/single/kaltsitas.svg)
@@ -52,19 +53,20 @@ $\text{Amiya (Solo Around The World)}$ [^amiyasatw], $\text{Kal'tsit (2024 Ambie
 
 以下角色未匹配到画师。
 
-$\text{Shamare}$,
-$\text{Asbestos}$,
-$\text{Ceobe (Unfettered)}$,
-$\text{Sora}$,
-$\text{Sussurro}$,
-$\text{Suzuran}$,
-$\text{Suzuran (Yukibare)}$ [^arknights-non]
+- $\text{Shamare}$
+- $\text{Asbestos}$,
+- $\text{Ceobe (Unfettered)}$,
+- $\text{Sora}$,
+- $\text{Sussurro}$
+- $\text{Suzuran}$
+- $\text{Suzuran (Yukibare)}$ [^arknights-non]
 
 [^arknights-non]: ![shamare.svg](../../images/moe/arknights/single/shamare.svg) ![asbestos.svg](../../images/moe/arknights/single/asbestos.svg) ![ceobe2.svg](../../images/moe/arknights/single/ceobe2.svg) ![sora.svg](../../images/moe/arknights/single/sora.svg) ![sussurro.svg](../../images/moe/arknights/single/sussurro.svg) ![suzuran.svg](../../images/moe/arknights/single/suzuran.svg) ![suzuran3.svg](../../images/moe/arknights/single/suzuran3.svg)
 
 ## Blue Archive
 
-Blue Archive 没有 Multi 的一大部分原因是角色是轻度原子化 [^atomic]和高度结构化[^structured]的。
+1. Blue Archive 没有 Multi 的一大部分原因是角色是轻度原子化 [^atomic]和高度结构化[^structured]的。
+2. 此 Copyright 下，所有角色的版本均由 svg 精确指定。
 
 [^atomic]: 考虑「学生」所在的小组剧情和个人剧情的比重。
 [^structured]: 可以为每个「学生」建立一个主树，然后在下面建立一个子树「羁绊剧情」。
@@ -73,6 +75,6 @@ Blue Archive 没有 Multi 的一大部分原因是角色是轻度原子化 [^ato
 
 以下角色已匹配到最佳画师。
 
-$\text{Nozomi}$ [^nozomi]
+- $\text{Nozomi}$ [^nozomi]
 
 [^nozomi]: ![nozomi.svg](../../images/moe/blue_archive/single/nozomi.svg)
