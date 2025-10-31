@@ -11,7 +11,7 @@
             marginTop: 20,
             spacing: 30,
             maxSidenoteHeight: 400,      // 侧注的最大高度（像素）
-            collapseThreshold: 350       // 触发折叠的高度阈值
+            collapseThreshold: 50       // 触发折叠的高度阈值
         },
         
         // 状态
