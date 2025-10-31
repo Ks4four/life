@@ -1,6 +1,6 @@
 +++
 date = '2025-10-03T06:11:12Z'
-draft = true
+draft = false
 title = 'Neovim'
 +++
 

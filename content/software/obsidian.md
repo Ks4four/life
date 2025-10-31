@@ -1,6 +1,6 @@
 +++
 date = '2025-10-31T16:41:22Z'
-draft = true
+draft = false
 title = 'Obsidian'
 +++
 
