@@ -23,3 +23,8 @@ My [moe]({{< ref "moe/moe.md" >}}).
 ## Software
 
 Emacs, [Neovim]({{< ref "software/neovim.md">}}), [Markdown]({{< ref "software/markdown.md">}}), [Obsidian]({{< ref "software/obsidian.md">}})
+
+## About
+
+- [Sidenotes](https://gwern.net/sidenote)：基于 `sidenotes.js`, Said Achmiz 的内容 vibe coding 而来。这个网站里面的具有响应式设计，在电脑上是边注，在手机上是尾注。点击它们可以即刻显示。
+- [hugo-bearblog](https://github.com/janraasch/hugo-bearblog) 是基于 [Bear Blog](https://bearblog.dev/) 而来的。使用 hugo 是因为内容条款。
