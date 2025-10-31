@@ -1,6 +1,7 @@
 +++
-date = "2025-09-09T21:54:36"
-title = "约稿后记：输只是个开始"
+date = '2025-10-31T16:43:40Z'
+draft = false
+title = '约稿后记：输只是个开始'
 tags = ["ai-art", "complaint"]
 +++
 

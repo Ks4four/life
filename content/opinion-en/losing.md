@@ -1,10 +1,8 @@
 +++
-date = '2025-09-09T21:54:36'
+date = '2025-10-31T16:42:36Z'
+draft = false
 title = 'An Afterword on Commissions — We are not only losing'
-tags = ["ai-art", "complaint"]
 +++
-
-# An Afterword on Commissions — We are not only losing
 
 The article is also available in [Chinese]({{< ref "opinion/old.md">}}).
 
