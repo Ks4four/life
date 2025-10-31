@@ -19,19 +19,19 @@ $$ \text{W}^* \xrightarrow{\text{Rosmontis} + \text{Blaze}} \text{Amiya} $$
 
 此角色组[^w-amiya]已匹配候选画师。
 
-[^w-amiya]: ![w---amiya.svg](../../images/moe/arknights/w-amiya.svg)
+[^w-amiya]: ![w---amiya.svg](../../images/moe/arknights/multi/w-amiya.svg)
 
 $$ \text{Lappland}^* \leftrightarrows \text{Suzuran} $$
 
 此角色组[^lapp-szrn]未匹配到画师。
 
-[^lapp-szrn]: ![lapp---szrn.svg](../../images/moe/arknights/lapp-szrn.svg)
+[^lapp-szrn]: ![lapp---szrn.svg](../../images/moe/arknights/multi/lapp-szrn.svg)
 
 $$ \text{Blaze}^* \rightarrow \text{Amiya} $$
 
 此角色组[^blaze-amiya]未匹配到画师。
 
-[^blaze-amiya]: ![blaze-amiya.svg](../../images/moe/arknights/blaze-amiya.svg)
+[^blaze-amiya]: ![blaze-amiya.svg](../../images/moe/arknights/multi/blaze-amiya.svg)
 
 ### Single
 
@@ -39,14 +39,14 @@ $$ \text{Blaze}^* \rightarrow \text{Amiya} $$
 
 $\text{Mizuki}$ [^mizuki]
 
-[^mizuki]: ![mizuki.svg](../../images/moe/arknights/mizuki.svg)
+[^mizuki]: ![mizuki.svg](../../images/moe/arknights/single/mizuki.svg)
 
 以下角色已匹配候选画师。
 
 $\text{Amiya (Solo Around The World)}$ [^amiyasatw], $\text{Kal'tsit (2024 Ambience Synesthesia)}$ [^kaltsitas]
 
-[^amiyasatw]: ![amiyasatw.svg](../../images/moe/arknights/amiyasatw.svg)
-[^kaltsitas]: ![kaltsitas.svg](../../images/moe/arknights/kaltsitas.svg)
+[^amiyasatw]: ![amiyasatw.svg](../../images/moe/arknights/single/amiyasatw.svg)
+[^kaltsitas]: ![kaltsitas.svg](../../images/moe/arknights/single/kaltsitas.svg)
 
 
 以下角色未匹配到画师。
@@ -59,4 +59,4 @@ $\text{Sussurro}$,
 $\text{Suzuran}$,
 $\text{Suzuran (Yukibare)}$ [^arknights-non]
 
-[^arknights-non]: ![shamare.svg](../../images/moe/arknights/shamare.svg) ![asbestos.svg](../../images/moe/arknights/asbestos.svg) ![ceobe2.svg](../../images/moe/arknights/ceobe2.svg) ![sora.svg](../../images/moe/arknights/sora.svg) ![sussurro.svg](../../images/moe/arknights/sussurro.svg) ![suzuran.svg](../../images/moe/arknights/suzuran.svg) ![suzuran3.svg](../../images/moe/arknights/suzuran3.svg)
+[^arknights-non]: ![shamare.svg](../../images/moe/arknights/single/shamare.svg) ![asbestos.svg](../../images/moe/arknights/single/asbestos.svg) ![ceobe2.svg](../../images/moe/arknights/single/ceobe2.svg) ![sora.svg](../../images/moe/arknights/single/sora.svg) ![sussurro.svg](../../images/moe/arknights/single/sussurro.svg) ![suzuran.svg](../../images/moe/arknights/single/suzuran.svg) ![suzuran3.svg](../../images/moe/arknights/single/suzuran3.svg)
