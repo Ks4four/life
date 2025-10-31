@@ -23,7 +23,7 @@ $$ \text{W}^* \xrightarrow{\text{Rosmontis} + \text{Blaze}} \text{Amiya} $$
 
 $$ \text{Lappland}^* \leftrightarrows \text{Suzuran} $$
 
-此角色组[^lapp-szrn]已匹配候选画师。
+此角色组[^lapp-szrn]未匹配到画师。
 
 [^lapp-szrn]: ![lapp---szrn.svg](../../images/moe/arknights/lapp-szrn.svg)
 
@@ -43,9 +43,11 @@ $\text{Mizuki}$ [^mizuki]
 
 以下角色已匹配候选画师。
 
-$\text{Amiya, Solo Around The World}$ [^amiyasatw]
+$\text{Amiya (Solo Around The World)}$ [^amiyasatw], $\text{Kal'tsit (2024 Ambience Synesthesia)} [^kaltsitas]
 
 [^amiyasatw]: ![amiyasatw.svg](../../images/moe/arknights/amiyasatw.svg)
+[^kaltsitas]: ![kaltsitas.svg](../../images/moe/arknights/kaltsitas.svg)
+
 
 以下角色未匹配到画师。
 
