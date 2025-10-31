@@ -54,9 +54,9 @@ $$ \text{Blaze}^* \rightarrow \text{Amiya} $$
 以下角色未匹配到画师。
 
 - $\text{Shamare}$
-- $\text{Asbestos}$,
-- $\text{Ceobe (Unfettered)}$,
-- $\text{Sora}$,
+- $\text{Asbestos}$
+- $\text{Ceobe (Unfettered)}$
+- $\text{Sora}$
 - $\text{Sussurro}$
 - $\text{Suzuran}$
 - $\text{Suzuran (Yukibare)}$ [^arknights-non]
