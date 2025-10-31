@@ -2,17 +2,18 @@
 &lt;ol&gt;
 &lt;li&gt;我并不关注游戏内的 hetero 特性。&lt;/li&gt;
 &lt;li&gt;在同一 heading 下面的角色及角色组存在排序，依据为偏爱程度。不同 heading 之间的偏爱程度无法比较。&lt;/li&gt;
+&lt;li&gt;未列出的角色 &lt;em&gt;就是&lt;/em&gt; 代表一点兴趣都没有。&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2 id="arknights"&gt;Arknights&lt;/h2&gt;
 &lt;p&gt;此游戏下，所有角色的 icon 严格指定皮肤和版本，故脚注其实更精确。&lt;/p&gt;
 &lt;h3 id="multi"&gt;Multi&lt;/h3&gt;
-$$ \text{W}^* \xrightarrow{\text{Rosmontis} + \text{Blaze}} \text{Amiya} $$&lt;p&gt;此角色组&lt;sup id="fnref:1"&gt;&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref"&gt;1&lt;/a&gt;&lt;/sup&gt;已匹配候选画师。&lt;/p&gt;
+$$ \text{W}^* \xrightarrow{\text{Rosmontis} + \text{Blaze}} \text{Amiya} $$&lt;p&gt;此角色组&lt;sup id="fnref:1"&gt;&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref"&gt;1&lt;/a&gt;&lt;/sup&gt;已匹配到候选画师。&lt;/p&gt;
 $$ \text{Lappland}^* \leftrightarrows \text{Suzuran} $$&lt;p&gt;此角色组&lt;sup id="fnref:2"&gt;&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref"&gt;2&lt;/a&gt;&lt;/sup&gt;未匹配到画师。&lt;/p&gt;
 $$ \text{Blaze}^* \rightarrow \text{Amiya} $$&lt;p&gt;此角色组&lt;sup id="fnref:3"&gt;&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref"&gt;3&lt;/a&gt;&lt;/sup&gt;未匹配到画师。&lt;/p&gt;
 &lt;h3 id="single"&gt;Single&lt;/h3&gt;
-&lt;p&gt;以下角色已匹配最佳画师。&lt;/p&gt;
+&lt;p&gt;以下角色已匹配到最佳画师。&lt;/p&gt;
 &lt;p&gt;$\text{Mizuki}$ &lt;sup id="fnref:4"&gt;&lt;a href="#fn:4" class="footnote-ref" role="doc-noteref"&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-&lt;p&gt;以下角色已匹配候选画师。&lt;/p&gt;
+&lt;p&gt;以下角色已匹配到候选画师。&lt;/p&gt;
 &lt;p&gt;$\text{Amiya (Solo Around The World)}$ &lt;sup id="fnref:5"&gt;&lt;a href="#fn:5" class="footnote-ref" role="doc-noteref"&gt;5&lt;/a&gt;&lt;/sup&gt;, $\text{Kal'tsit (2024 Ambience Synesthesia)}$ &lt;sup id="fnref:6"&gt;&lt;a href="#fn:6" class="footnote-ref" role="doc-noteref"&gt;6&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;p&gt;以下角色未匹配到画师。&lt;/p&gt;
 &lt;p&gt;$\text{Shamare}$,
@@ -22,6 +23,11 @@ $\text{Sora}$,
 $\text{Sussurro}$,
 $\text{Suzuran}$,
 $\text{Suzuran (Yukibare)}$ &lt;sup id="fnref:7"&gt;&lt;a href="#fn:7" class="footnote-ref" role="doc-noteref"&gt;7&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;h2 id="blue-archive"&gt;Blue Archive&lt;/h2&gt;
+&lt;p&gt;Blue Archive 没有 Multi 的一大部分原因是角色是轻度原子化 &lt;sup id="fnref:8"&gt;&lt;a href="#fn:8" class="footnote-ref" role="doc-noteref"&gt;8&lt;/a&gt;&lt;/sup&gt;和高度结构化&lt;sup id="fnref:9"&gt;&lt;a href="#fn:9" class="footnote-ref" role="doc-noteref"&gt;9&lt;/a&gt;&lt;/sup&gt;的。&lt;/p&gt;
+&lt;h3 id="single-1"&gt;Single&lt;/h3&gt;
+&lt;p&gt;以下角色已匹配到最佳画师。&lt;/p&gt;
+&lt;p&gt;$\text{Nozomi}$ &lt;sup id="fnref:10"&gt;&lt;a href="#fn:10" class="footnote-ref" role="doc-noteref"&gt;10&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;div class="footnotes" role="doc-endnotes"&gt;
 &lt;hr&gt;
 &lt;ol&gt;
@@ -32,19 +38,4 @@ $\text{Suzuran (Yukibare)}$ &lt;sup id="fnref:7"&gt;&lt;a href="#fn:7" class="fo
 &lt;p&gt;&lt;img src="../../images/moe/arknights/multi/lapp-szrn.svg" alt="lapp-szrn.svg"&gt;&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li id="fn:3"&gt;
-&lt;p&gt;&lt;img src="../../images/moe/arknights/multi/blaze-amiya.svg" alt="blaze-amiya.svg"&gt;&amp;#160;&lt;a href="#fnref:3" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li id="fn:4"&gt;
-&lt;p&gt;&lt;img src="../../images/moe/arknights/single/mizuki.svg" alt="mizuki.svg"&gt;&amp;#160;&lt;a href="#fnref:4" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li id="fn:5"&gt;
-&lt;p&gt;&lt;img src="../../images/moe/arknights/single/amiyasatw.svg" alt="amiyasatw.svg"&gt;&amp;#160;&lt;a href="#fnref:5" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li id="fn:6"&gt;
-&lt;p&gt;&lt;img src="../../images/moe/arknights/single/kaltsitas.svg" alt="kaltsitas.svg"&gt;&amp;#160;&lt;a href="#fnref:6" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li id="fn:7"&gt;
-&lt;p&gt;&lt;img src="../../images/moe/arknights/single/shamare.svg" alt="shamare.svg"&gt; &lt;img src="../../images/moe/arknights/single/asbestos.svg" alt="asbestos.svg"&gt; &lt;img src="../../images/moe/arknights/single/ceobe2.svg" alt="ceobe2.svg"&gt; &lt;img src="../../images/moe/arknights/single/sora.svg" alt="sora.svg"&gt; &lt;img src="../../images/moe/arknights/single/sussurro.svg" alt="sussurro.svg"&gt; &lt;img src="../../images/moe/arknights/single/suzuran.svg" alt="suzuran.svg"&gt; &lt;img src="../../images/moe/arknights/single/suzuran3.svg" alt="suzuran3.svg"&gt;&amp;#160;&lt;a href="#fnref:7" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/div&gt;</description></item></channel></rss>
+&lt;p&gt;&lt;img src="../../images/moe/arknights/multi/blaze-amiya.svg" alt="blaze-amiya.svg"&gt;&amp;#160;&lt;a href="#fnref:3" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;</description></item></channel></rss>
