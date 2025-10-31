@@ -6,6 +6,8 @@ tags = ["ai-art", "complaint"]
 
 # An Afterword on Commissions — We are not only losing
 
+The article is also available in [Chinese](../opinion/losing.md).
+
 I don’t have a favorite character. I started commissioning mostly to spend money on those cold, no-one-will-draw-this ideas. Some characters have painfully few images. Uh, I don’t think I have a better reason.
 
 A friend once asked, “Why not use AI? It doesn’t cost much to run.” He had a point. And with my passable Linux skills, setting one up was easy enough. But after trying it, using an AI image as a wallpaper just felt… off.
