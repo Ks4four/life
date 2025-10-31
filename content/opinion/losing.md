@@ -6,7 +6,7 @@ tags = ["ai-art", "complaint"]
 
 # 约稿后记：输只是个开始
 
-The article is also available in [English](../opinion-en/losing.md).
+The article is also available in [English]({{< ref "opinion-en/old.md">}}).
 
 我没有特别喜欢的角色。一开始约稿，就是为了花钱实现那些冷门、没人画的点子，毕竟有些角色的图片实在过于稀少了，然后，呃，我好像拿不出别的理由了。
 
