@@ -43,7 +43,7 @@ $\text{Mizuki}$ [^mizuki]
 
 以下角色已匹配候选画师。
 
-$\text{Amiya (Solo Around The World)}$ [^amiyasatw], $\text{Kal'tsit (2024 Ambience Synesthesia)} [^kaltsitas]
+$\text{Amiya (Solo Around The World)}$ [^amiyasatw], $\text{Kal'tsit (2024 Ambience Synesthesia)}$ [^kaltsitas]
 
 [^amiyasatw]: ![amiyasatw.svg](../../images/moe/arknights/amiyasatw.svg)
 [^kaltsitas]: ![kaltsitas.svg](../../images/moe/arknights/kaltsitas.svg)
