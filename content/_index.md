@@ -10,7 +10,7 @@ weight = 1
 
 ## Meta
 
-[Why]({{< ref "blog/why.md" >}}), [Libre]({{< ref "blog/libre.md" >}})
+[Why]({{< ref "opinion/why.md" >}}), [Libre]({{< ref "opinion/libre.md" >}})
 
 ## Moe
 
