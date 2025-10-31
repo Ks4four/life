@@ -66,7 +66,7 @@ $$ \text{Blaze}^* \rightarrow \text{Amiya} $$
 ## Blue Archive
 
 1. Blue Archive 没有 Multi 的一大部分原因是角色是轻度原子化 [^atomic]和高度结构化[^structured]的。
-2. 此 Copyright 下，所有角色的版本均由 svg 精确指定。
+2. 此 Copyright 下，所有角色的版本及其表情均由 svg 精确指定。
 
 [^atomic]: 考虑「学生」所在的小组剧情和个人剧情的比重。
 [^structured]: 可以为每个「学生」建立一个主树，然后在下面建立一个子树「羁绊剧情」。
