@@ -22,4 +22,4 @@ My [moe]({{< ref "moe/moe.md" >}}).
 
 ## Software
 
-Emacs, [Neovim]({{< ref "software/neovim.md">}}), [Markdown]({{< ref "software/markdown.md">}}), [Obsidian]{{< ref "software/obsidian.md">}}
+Emacs, [Neovim]({{< ref "software/neovim.md">}}), [Markdown]({{< ref "software/markdown.md">}}), [Obsidian]({{< ref "software/obsidian.md">}})

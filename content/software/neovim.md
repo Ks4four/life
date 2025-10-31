@@ -4,8 +4,6 @@ draft = false
 title = 'Neovim'
 +++
 
-# Neovim
-
 来来回回卸载以后发现我可能真的不适合它。
 
 ## Modal Editing
