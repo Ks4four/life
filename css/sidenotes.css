@@ -19,7 +19,6 @@
 .sidenote {
     position: absolute;
     width: 220px;
-    padding: 8px 10px;
     margin: 10px 0;
     background-color: var(--background-color);
     border-left: 2px solid var(--link-color);
@@ -33,6 +32,17 @@
     border-right: 2px solid var(--link-color);
 }
 
+/* 侧注包装器 */
+.sidenote-outer-wrapper {
+    padding: 8px 10px;
+    position: relative;
+}
+
+.sidenote-inner-wrapper {
+    display: block;
+}
+
+/* 侧注编号 */
 .sidenote-number {
     display: inline-block;
     width: 18px;
@@ -54,12 +64,96 @@
     opacity: 0.9;
 }
 
+/* === 长侧注折叠样式 === */
+.sidenote.cut-off .sidenote-outer-wrapper {
+    /* 滚动条样式 */
+    scrollbar-width: thin;
+    scrollbar-color: var(--link-color) transparent;
+}
+
+.sidenote.cut-off .sidenote-outer-wrapper::-webkit-scrollbar {
+    width: 4px;
+}
+
+.sidenote.cut-off .sidenote-outer-wrapper::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.sidenote.cut-off .sidenote-outer-wrapper::-webkit-scrollbar-thumb {
+    background: var(--link-color);
+    opacity: 0.5;
+    border-radius: 2px;
+}
+
+/* 省略号指示器 */
+.sidenote-more-indicator {
+    display: none;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 30px;
+    background: linear-gradient(
+        to bottom,
+        transparent,
+        var(--background-color) 50%,
+        var(--background-color)
+    );
+    text-align: center;
+    line-height: 30px;
+    font-size: 1.2em;
+    color: var(--link-color);
+    font-weight: bold;
+    pointer-events: auto;
+    z-index: 10;
+}
+
+.sidenote.cut-off.show-more-indicator .sidenote-more-indicator {
+    display: block;
+}
+
+.sidenote.cut-off.hide-more-indicator .sidenote-more-indicator {
+    display: none;
+}
+
+/* 展开状态 */
+.sidenote.expanded .sidenote-more-indicator {
+    position: sticky;
+    bottom: 0;
+    background: var(--background-color);
+    border-top: 1px solid var(--link-color);
+    opacity: 0.9;
+}
+
+.sidenote.expanded .sidenote-more-indicator:hover {
+    opacity: 1;
+    background: var(--link-color);
+    color: var(--background-color);
+}
+
+/* 高亮效果 */
 .sidenote.highlighted {
     opacity: 1;
     background-color: var(--background-color);
     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    z-index: 100;
 }
 
+/* 超长侧注的视觉提示 */
+.sidenote.cut-off {
+    border-left-width: 3px;
+}
+
+.sidenote-column-left .sidenote.cut-off {
+    border-right-width: 3px;
+}
+
+/* 动画效果 */
+.sidenote.cut-off .sidenote-outer-wrapper {
+    transition: max-height 0.3s ease;
+}
+
+/* 脚注引用样式 */
 .sidenote-ref {
     background-color: var(--background-color);
     padding: 1px 4px;
@@ -80,7 +174,7 @@
     color: var(--background-color);
 }
 
-/* === 移动端弹窗样式 === */
+/* === 移动端弹窗样式（保持不变）=== */
 .footnote-popup-overlay {
     position: fixed;
     top: 0;
@@ -170,7 +264,6 @@
     line-height: 1.6;
 }
 
-/* 移动端触发器样式 */
 .footnote-popup-trigger {
     color: var(--link-color);
     cursor: pointer;
@@ -192,7 +285,7 @@
 
 /* === 手机端内联展开样式 === */
 .footnote-inline {
-    display: none; /* 默认隐藏 */
+    display: none;
     margin: 10px 0;
     padding: 12px;
     background-color: rgba(128, 128, 128, 0.1);
@@ -200,7 +293,6 @@
     border-radius: 4px;
 }
 
-/* 当显示时添加动画 */
 .footnote-inline[style*="display: block"] {
     animation: slideDown 0.3s ease;
 }
@@ -272,6 +364,15 @@
     
     .footnote-inline {
         background-color: rgba(255, 255, 255, 0.05);
+    }
+    
+    .sidenote-more-indicator {
+        background: linear-gradient(
+            to bottom,
+            transparent,
+            var(--background-color) 50%,
+            var(--background-color)
+        );
     }
 }
 
