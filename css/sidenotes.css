@@ -1,7 +1,7 @@
 /* === 桌面端侧注样式 === */
 .sidenote-column {
     position: absolute;
-    width: 320px; /* 增加宽度 */
+    width: 240px;
     top: 0;
     font-family: var(--font-secondary);
     font-size: 0.85em;
@@ -18,11 +18,18 @@
 
 .sidenote {
     position: absolute;
-    width: 300px; /* 增加宽度 */
+    width: 220px;
     margin: 10px 0;
     background-color: var(--background-color);
     border-left: 2px solid var(--link-color);
+    opacity: 0.9;
     transition: all 0.3s ease;
+}
+
+.sidenote-column-left .sidenote {
+    text-align: right;
+    border-left: none;
+    border-right: 2px solid var(--link-color);
 }
 
 /* 侧注包装器 */
@@ -51,43 +58,19 @@
     font-family: "Geist Mono", monospace;
 }
 
-/* 侧注内容样式 - 处理图片 */
 .sidenote-content {
-    display: block; /* 改为block以更好地控制布局 */
+    display: inline;
     color: var(--text-color);
     opacity: 0.9;
-    margin-top: 5px;
-}
-
-/* 图片特殊处理 */
-.sidenote-content img {
-    max-width: 50px;
-    height: 50px;
-    margin: 2px;
-    display: inline-block;
-    vertical-align: middle;
-}
-
-/* 让图片在一行内显示 */
-.sidenote-content p {
-    margin: 5px 0;
-    white-space: normal; /* 允许正常换行 */
 }
 
 /* === 长侧注折叠样式 === */
-.sidenote.cut-off {
-    position: relative;
-}
-
 .sidenote.cut-off .sidenote-outer-wrapper {
     /* 滚动条样式 */
     scrollbar-width: thin;
     scrollbar-color: var(--link-color) transparent;
-    position: relative;
-    padding-bottom: 10px; /* 为渐变留空间 */
 }
 
-/* 滚动条美化 */
 .sidenote.cut-off .sidenote-outer-wrapper::-webkit-scrollbar {
     width: 4px;
 }
@@ -98,67 +81,42 @@
 
 .sidenote.cut-off .sidenote-outer-wrapper::-webkit-scrollbar-thumb {
     background: var(--link-color);
-    opacity: 0.3;
+    opacity: 0.5;
     border-radius: 2px;
 }
 
-.sidenote.cut-off .sidenote-outer-wrapper::-webkit-scrollbar-thumb:hover {
-    opacity: 0.5;
-}
-
-/* 省略号指示器 - 改进样式 */
+/* 省略号指示器 */
 .sidenote-more-indicator {
     display: none;
     position: absolute;
     bottom: 0;
     left: 0;
     right: 0;
-    height: 40px;
+    height: 30px;
     background: linear-gradient(
         to bottom,
-        rgba(255, 255, 255, 0) 0%,
-        rgba(255, 255, 255, 0.8) 30%,
-        var(--background-color) 60%,
-        var(--background-color) 100%
+        transparent,
+        var(--background-color) 50%,
+        var(--background-color)
     );
     text-align: center;
-    padding-top: 15px;
+    line-height: 30px;
     font-size: 1.2em;
     color: var(--link-color);
     font-weight: bold;
-    cursor: pointer;
+    pointer-events: auto;
     z-index: 10;
-    user-select: none;
 }
 
 .sidenote.cut-off.show-more-indicator .sidenote-more-indicator {
     display: block;
 }
 
-.sidenote.cut-off.hide-more-indicator .sidenote-more-indicator,
-.sidenote.expanded .sidenote-more-indicator {
-    background: transparent;
+.sidenote.cut-off.hide-more-indicator .sidenote-more-indicator {
+    display: none;
 }
-
-.sidenote.expanded .sidenote-more-indicator span {
-    position: sticky;
-    bottom: 5px;
-    background: var(--link-color);
-    color: var(--background-color);
-    border-radius: 50%;
-    width: 20px;
-    height: 20px;
-    line-height: 20px;
-    padding: 0;
-}
-
 
 /* 展开状态 */
-.sidenote.expanded .sidenote-outer-wrapper {
-    max-height: none !important;
-    padding-bottom: 30px;
-}
-
 .sidenote.expanded .sidenote-more-indicator {
     position: sticky;
     bottom: 0;
@@ -184,18 +142,10 @@
 /* 超长侧注的视觉提示 */
 .sidenote.cut-off {
     border-left-width: 3px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
 .sidenote-column-left .sidenote.cut-off {
     border-right-width: 3px;
-    border-left-width: 0;
-}
-
-/* 确保内容不会溢出 */
-.sidenote-inner-wrapper {
-    word-wrap: break-word;
-    overflow-wrap: break-word;
 }
 
 /* 动画效果 */
@@ -419,10 +369,9 @@
     .sidenote-more-indicator {
         background: linear-gradient(
             to bottom,
-            rgba(1, 36, 46, 0) 0%,
-            rgba(1, 36, 46, 0.8) 30%,
-            #01242e 60%,
-            #01242e 100%
+            transparent,
+            var(--background-color) 50%,
+            var(--background-color)
         );
     }
 }
@@ -435,17 +384,3 @@
         display: none !important;
     }
 }
-
-.sidenote-more-indicator span {
-    display: inline-block;
-    padding: 2px 10px;
-    background: var(--background-color);
-    border-radius: 10px;
-    transition: all 0.2s ease;
-}
-
-.sidenote-more-indicator:hover span {
-    background: var(--link-color);
-    color: var(--background-color);
-}
-
