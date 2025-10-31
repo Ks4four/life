@@ -10,8 +10,8 @@
             sidenoteWidth: 240,
             marginTop: 20,
             spacing: 30,
-            maxSidenoteHeight: 400,      // 侧注的最大高度（像素）
-            collapseThreshold: 50       // 触发折叠的高度阈值
+            maxSidenoteHeight: 100,      // 侧注的最大高度（像素）
+            collapseThreshold: 100       // 触发折叠的高度阈值
         },
         
         // 状态
