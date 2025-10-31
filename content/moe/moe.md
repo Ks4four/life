@@ -2,7 +2,7 @@
 date = '2025-10-11T13:25:15Z'
 draft = false
 title = 'Moe'
-math: true
+math = true
 +++
 
 1. 我并不关注游戏内的 hetero 特性。

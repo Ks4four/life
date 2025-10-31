@@ -8,17 +8,15 @@ title = 'Neovim'
 
 来来回回卸载以后发现我可能真的不适合它。
 
-### Modal Editing
+## Modal Editing
 
 这是我最后决定卸载的理由，所以排第一了。Modal Editing 并不适合我。首先输入法的 IME 本质上是一种 toggle，这种 toggle 是在不同的 layer 之中。Modal Editing 说白了也是用一种 layer。这种交织会把我搞乱，以至于我从来没有成功进入心流状态中。更别说我的 ZMK 也有 layer 了。想象一下在 Neovim 编辑需要考虑什么：先要考虑键盘 toggle 状态，再考虑中英文状态、再考虑是否进入 Insert 模式。虽然这对许多用户来说不是问题，但是对我来说负担太大了。
 
 中文支持、无法重复（repetition）或没有正反馈这些问题，由于没有具体的真实代码示例，我决定省略它们。
 
-## Neovim：积极的部分
+## Leader Key
 
-这些事真正帮助了我。排名是有序的。
-
-### Leader Key
+Leader Key 对我来说是启发性的。
 
 在接触 Neovim 之前，我从来没有想过能这么操作文本（或者不是文本）的东西。QMK 和 ZMK 都已经是之后的事情了，是我搜索了才发现它们有自己的 Leader Key 实现。
 
@@ -34,6 +32,8 @@ Leader Key 也不完美，和 omnibar 一样它也有定义问题。只不过，
 
 讲了那么多，总之 Leader Key 对我的帮助很大。
 
-### HJKL
+### Homerow
 
-通过 HJKL，我学习到了 home row 的重要性，而非它们的设置本身。在设置上，我更偏好语义快捷键（C-b、C-p、C-n、C-f），而非位置。不过，无论是真正的 Vim 还是哪些软件上 Vim 的模拟器，都几乎会支持这 4 个键。
+Homerow 对我来说是启发性的。
+
+在 Neovim 里，HJKL 就是 homerow 的一种代表。它给了我一种语义的启发，而非它们的设置本身。在设置上，我更偏好语义快捷键（C-b、C-p、C-n、C-f），而非位置。不过，无论是真正的 Vim 还是哪些软件上 Vim 的模拟器，都几乎会支持这 4 个键。
