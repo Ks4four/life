@@ -20,7 +20,7 @@ My [moe]({{< ref "moe/moe.md" >}}).
 
 [Good Old Days Need Money]({{< ref "opinion/old.md">}}), [We are not only losing]({{< ref "opinion/losing.md">}}) ([English]({{< ref "opinion-en/losing.md">}}))
 
-## Software
+## Computer
 
 Emacs, [Neovim]({{< ref "software/neovim.md">}}), [Markdown]({{< ref "software/markdown.md">}}), [Obsidian]({{< ref "software/obsidian.md">}})
 
