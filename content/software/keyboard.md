@@ -1,0 +1,22 @@
++++
+date = '2025-10-31T16:40:31Z'
+draft = true
+title = 'Markdown'
++++
+
+# Keymap
+
+
+
+## Design
+
+### Combos
+
+https://caksoylar.github.io/keymap-drawer?keymap_yaml=H4sIAAAAAAACA-2WXW_aMBSG7yv1P5yl2rQPM8UOBMg-tE6g9WJA1ZZNFWNRAG-rCHEWjNqq63-fk8XMJJgk3c0uuEEGnvec95xjO_G9W7bizuEBwM_F3J3T2wnzopkDUxYF1I0Y9zidxX_7CekG3oI68PH4cjC8cJehf8Vd66bhWocHAqDRMgl1Muh1zwafkzVADUbByvcRPORz_L_FiL_867p__GnfG11vhr19bzTr88t9b7avp2wxYX8unxrchQ6MCAKMxwjmDhg-_cYNBL742RBnzxgjccPxaEXvMwIrFazCQhxjBIQIHhLFjF0HxSnUHNHV9x_FrjDCZiqIb9Vi3kREln36odMvFFgI19f88LQ4QR0RWUK33ynmRc1rRx3qU06lJn1M7NDJRO_nyzCvAo1s3eLz0Jvms2WniEmKX3iT3bCp7KnucloismKmG3AabSnCE0WwMN5HwBwwXzbyKRWPZzSkHt8eZsI4ZwtNJGIqc7DWYxv2Nm0Tua1jjOgxdTpYj5lKtPoGpjjO5ZeBG6UUCCRvao3EUVPI1kJxr1OouQuSkVp5e2KSmbTSW7sQbiJopfBXbfoWgnYKPdFC9t9Iz0u1UAhIM1U80k9TOCQy8Ds9JjwSafJIj9lKtKNSNtuKzcdlFMIwtlPBUykQT9Hk8oi8a3dJQy8Sr7gO4KxOWntWQScqx9LgqKJOdmxcUSfru6tYn8x3X0GHbaVAZ0O4gan9e6XH1LK_GHrOVsK9zthV7j2WddtW3L6toLMVX7_yuuS6zoniwyFn8SLbUwEXdFY9W7Xq8pZyNNyHyWXFb8rKfwOBlyCcPQ4AAA%3D%3D
+
+### Letters
+
+QWERTY.
+
+### Layers
+
